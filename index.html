@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your favorite recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">
+            <img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="logo" class="logo__img">
+        </a>  
+        <nav class="main-menu">
+            <ul class="main-menu__list">
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">log in</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link">sign up</a>
+                </li>
+                <li class="main-menu__item">
+                    <label for="checkbox-button-menu">☰</label>
+                    <input id="checkbox-button-menu" type="checkbox" hidden />
+                    <ul class="button-menu">
+                        <li class="button-menu__item"><a href="#" class="button-menu__link">Home</a></li>
+                        <li class="button-menu__item"><a href="#" class="button-menu__link">About us</a></li>
+                        <li class="button-menu__item"><a href="#" class="button-menu__link">Support</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>   <!-- /.header -->
+    <section class="main">
+        <h1 class="main__title">Find your favorite <span class="main__title-big">recipes</span></h1>
+
+        <a href="#app" class="main__button">get started</a>
+
+        <p class="main__description">or send us your own recipes and <a href="#">get rewarded</a>!</p>
+    </section>
+
+    <section class="features">
+            <ul class="features__list">
+              <li class="features__item features__item--burger">
+                <h3 class="section-title">get inspired</h3>
+                <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+              </li>
+              <li class="features__item features__item--money">
+                <h3 class="section-title">get rewarded</h3>
+                <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+              </li>
+              <li class="features__item features__item--man">
+                <h3 class="section-title">get social</h3>
+                <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora sint in doloribus quasi qui quibusdam impedit cum molestiae voluptatum minus enim, nihil nesciunt, accusantium exercitationem ipsum asperiores veniam. Vitae.</p>
+              </li>
+            </ul>
+    </section> <!-- /.features -->
+    
+    <section class="app" id="app">
+        <div class="app__image"></div>
+        <div class="app__content">
+            <h1 class="section-title section-title--left">introducing the fudi app</h1>
+            <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+            <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+            <p class="app__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic ad error qui eius in quaerat facere incidunt voluptas cum, ab necessitatibus sequi? Totam, repellat eaque rerum eos reprehenderit praesentium nostrum.</p>
+
+            <p class="app__description">
+                <a href="#" class="app__link app__link--appstore">app store</a>
+                <a href="#" class="app__link app__link--googleplay">google play</a>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>   
